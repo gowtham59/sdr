@@ -1,0 +1,7 @@
+l1,t2=map(int,input().split(" "))
+r3,s4=map(int,input().split(" "))
+a,b=map(int,input().split(" "))
+if((l1==r3==a) or (l1==t2) or (r3==s4) or (a==b)):
+     print("yes")
+else:
+     print("no")
